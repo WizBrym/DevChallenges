@@ -41,8 +41,8 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-- What was your experience? its was a simple and yet challenging task
-- What have you learned/improved? improved on CSS positioning and media querry 
+- What was your experience?   Its was a simple and yet challenging task
+- What have you learned/improved?  Improved on CSS positioning and media querry 
 
 ### Built With
 
