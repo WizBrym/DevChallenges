@@ -1,0 +1,175 @@
+body{
+    position: relative;
+    height: 1080px;
+    width: 1440px;
+    left: 20px;
+    background-color: #333333;
+    color: white;
+    border-radius:8px
+}
+
+.header>p{
+    position: absolute;
+    width: 160px;
+    height: 25px;
+    left: 77px;
+    right: 1230px;
+    top: 40px;
+    bottom: 1015px;
+    font-family:'Inconsolata';
+    font-size: 24px;
+    line-height: 25.18px;
+    letter-spacing: -8%;
+    color: #ff6d58;
+}
+
+.header>img{
+    position: absolute;
+    width: 539.22px;
+    height: 414.25px;
+    top: 265px;
+    bottom: 400.75px;
+    left: 77px;
+    right: 823.78px;
+    transition: width 3s, height 3s, transition 2s;
+}
+
+img:hover{
+    width: 600px;
+    height: 500px;
+    transition: width 3s, height 3s, transition 2s;
+}
+
+.body{
+    position: absolute;
+    top: -50px;
+}
+.body>h1{
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    right: 119px;
+    top: 265px;
+    bottom: 625px;
+    font-family: "Space Mono";
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.body>p{
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    right: 323px;
+    top: 491px;
+    bottom: 481px;
+    font-family: "Space Mono";
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #ff6d58;
+}
+
+button{
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    right: 484px;
+    top: 663px;
+    bottom: 349px;
+    font-family: "Space Mono";
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    
+}
+button:hover{
+    cursor: pointer;
+    color:#2b254e;
+}
+.footer{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 577px;
+    top: 1039px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ffd25b;
+}
+
+
+@media screen and (max-width:375px) {
+body{
+    position: relative;
+    width: 375px;
+    height: 949px;
+    radius: 8px;
+}   
+.header>P{
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 24px;
+    top: 20px;
+    font-family: "Inconsolata";
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+}
+.header>img{
+    position: absolute;
+    width: 286.83px;
+    height: 238px;
+    top: 109px;
+    left: 44px;
+
+}
+.body>h1{
+    position: absolute;
+    width: 350px;
+    height: 142px;
+    left: 24px;
+    top: 407px;
+    font-size: 48px;
+    line-height: 71px;
+    line-height: -0.035em;
+
+}
+.body>p{
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: 23px;
+    top: 579px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+}
+button{
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 24px;
+    top: 726px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.footer{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 46px;
+    top: 908px;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+}
