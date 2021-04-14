@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/WizBrym/DevChallenges">
+    <a href="https://wizbrym-404page.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://wizbrym-404page.netlify.app">
+    <a href="https://devchallenges.io/solutions/ypBOVMWnRvkwAAEJ4lVi"
       Solution
     </a>
     <span> | </span>
