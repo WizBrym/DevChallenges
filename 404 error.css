@@ -111,7 +111,7 @@ body{
     position: relative;
     width: 375px;
     height: 949px;
-    radius: 8px;
+    border-radius: 8px;
 }   
 .header>P{
     position: absolute;
